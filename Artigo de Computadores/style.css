@@ -1,0 +1,132 @@
+body {
+    font-family: arial;
+    background-image: linear-gradient(to left, rgb(0, 0, 0), rgb(44, 0, 44));
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+    font-size: 400%;
+    background-image: linear-gradient(to left, rgb(44, 0, 44), rgb(0, 0, 0));
+}
+
+.subtitulo1 {
+    text-align: left;
+    color: white;
+    font-size: 250%;  
+    margin-left: 175px;
+}
+.subtitulo2 {
+    text-align: right;
+    color: white;
+    font-size: 250%;
+    margin-right: 175px;  
+}
+
+.texto1 {
+    color: white;
+    font-size: 150%;
+    text-align: left;
+    margin-left: 175px;
+}
+.texto2 {
+    color: white;
+    font-size: 150%;
+    text-align: right;
+    margin-right: 175px;  
+}
+
+
+.imagens1 {
+    text-align: right;
+}
+.container-hardware {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.conteudo-texto {
+    flex: 1;
+}
+
+.imagens1 img {
+    margin-right: 70px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid white;
+}
+.imagens2 {
+    text-align: left;
+}
+.container-software {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.conteudo-texto {
+    flex: 1;
+}
+.imagens2 img {
+    margin-left: 70px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid white;
+}
+
+
+
+
+.botao-link {
+    margin-left: 175px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #80028b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.botao-link:hover {
+    background-color: #5c0057;
+}
+
+
+.botao-link2 {
+    margin-right: 175px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #80028b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+.botao-link2:hover {
+    background-color: #5c0057;
+}
+
+
+a:link {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+a:visited {
+    color: rgb(255, 255, 255);
+}
+a:hover {
+    color: rgb(233, 177, 233);
+    text-decoration: underline;
+}
+a:active {
+    color: rgb(161, 4, 175);
+}
+
+
+hr {
+    background-color : white;
+}
